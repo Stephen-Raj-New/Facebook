@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: Runner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 15.80 s <<< FAILURE! -- in Runner.TestRunner
+Verify the user can login successfully.User can successfully Login and Logout -- Time elapsed: 14.62 s <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.sendKeys(java.lang.CharSequence[])" because "this.Email_Locator" is null
+	at PageObjectModule.FBLoginPageObjectModule.Enter_Email(FBLoginPageObjectModule.java:27)
+	at StepDefinition.FBLoginStepDefinition.i_enter_the_email(FBLoginStepDefinition.java:27)
+	at ✽.I Enter the Email(file:///C:/Users/Stephen/eclipse-workspace/FacebookLogin/src/test/java/Features/Facebook.feature:7)
+
