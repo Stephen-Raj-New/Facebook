@@ -59,7 +59,7 @@ public void i_enter_the_facebook_password(String Password) {
 	}
 	@Then("Close the browser")
 	public void close_the_browser() {
-	     driver.quit();
+	     Create.Close_the_Browser();
 	}
 
 

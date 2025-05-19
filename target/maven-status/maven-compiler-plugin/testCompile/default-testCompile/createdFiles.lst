@@ -1,3 +1,5 @@
+StepDefinition\AddBioStepDefinition.class
 PageObjectModule\FBLoginPageObjectModule.class
 Runner\TestRunner.class
+PageObjectModule\AddBioPageObjectModule.class
 StepDefinition\FBLoginStepDefinition.class

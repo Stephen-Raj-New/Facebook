@@ -63,7 +63,7 @@ public void Click_on_Confirm_Remove() {
 	Confirm_Remove_from_the_Browser.click();
 }
 public void Close_the_Browser() {
-	driver.close();
+	driver.quit();
 }
 
 
