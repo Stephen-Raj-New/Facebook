@@ -16,7 +16,7 @@ public class FBLoginStepDefinition {
 	
 	@Given("Launch the browser and open the Facebook page")
 	public void launch_the_browser_and_open_the_facebook_page() {
-		System.setProperty("webdriver.edge.driver","C:\\Users\\Stephen\\Downloads\\edgedriver_win64\\msedgedriver.exe");
+		System.setProperty("webdriver.edge.driver","C:\\\\WebDriver\\\\edgedriver_win64\\\\msedgedriver.exe");
 		WebDriver driver = new EdgeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://www.facebook.com/");
